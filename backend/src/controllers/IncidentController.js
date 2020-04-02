@@ -24,8 +24,6 @@ module.exports = {
             'ongs.uf'
         ]);
 
-        console.log(count)
-
         response.header('X-Total-Count', count['count(*)']);
 
         return response.json(incidents);
